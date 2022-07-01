@@ -43,32 +43,30 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-apery
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-APERY = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.APERY;
-})();
-</script>
+var APERY = require( '@stdlib/constants-float64-apery' );
 ```
 
 #### APERY
@@ -92,21 +90,11 @@ var bool = ( APERY === 1.2020569031595942 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var APERY = require( '@stdlib/constants-float64-apery' );
 
 console.log( APERY );
 // => 1.2020569031595942
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -186,12 +174,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float64-apery/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float64-apery/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-apery/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float64-apery/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-apery/main/LICENSE
 
 [apery-constant]: https://en.wikipedia.org/wiki/Ap%C3%A9ry%27s_constant
 
-[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta/tree/umd
+[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta
 
 </section>
 
