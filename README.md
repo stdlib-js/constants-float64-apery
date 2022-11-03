@@ -50,6 +50,11 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 ## Usage
 
 ```javascript
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-apery/tags). For example,
+
+```javascript
 import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.8-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var bool = ( APERY === 1.2020569031595942 );
 <body>
 <script type="module">
 
-import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.8-esm/index.mjs';
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@esm/index.mjs';
 
 console.log( APERY );
 // => 1.2020569031595942
