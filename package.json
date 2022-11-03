@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-apery",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Apéry's constant.",
   "license": "Apache-2.0",
   "author": {
