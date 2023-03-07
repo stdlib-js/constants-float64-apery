@@ -54,6 +54,11 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 ## Usage
 
 ```javascript
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-apery/tags). For example,
+
+```javascript
 import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.9-deno/mod.js';
 ```
 
@@ -79,7 +84,7 @@ var bool = ( APERY === 1.2020569031595942 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.9-deno/mod.js';
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@deno/mod.js';
 
 console.log( APERY );
 // => 1.2020569031595942
