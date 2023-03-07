@@ -54,7 +54,7 @@ where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-z
 ## Usage
 
 ```javascript
-import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@deno/mod.js';
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.9-deno/mod.js';
 ```
 
 #### APERY
@@ -79,7 +79,7 @@ var bool = ( APERY === 1.2020569031595942 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@deno/mod.js';
+import APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-apery@v0.0.9-deno/mod.js';
 
 console.log( APERY );
 // => 1.2020569031595942
