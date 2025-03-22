@@ -52,7 +52,7 @@ limitations under the License.
 
 <!-- </equation> -->
 
-where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-zeta]
+where `ζ(s)` is the [Riemann zeta function][@stdlib/math/base/special/riemann-zeta].
 
 </section>
 
@@ -206,7 +206,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
