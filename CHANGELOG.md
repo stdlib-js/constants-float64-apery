@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-04-19)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3275ec2`](https://github.com/stdlib-js/stdlib/commit/3275ec2fd4cadcb50d5191fda88ffa78fbf3b831) - **chore:** update test messages in `constants/float64` [(#6728)](https://github.com/stdlib-js/stdlib/pull/6728) _(by Harsh)_
 -   [`0901e47`](https://github.com/stdlib-js/stdlib/commit/0901e47081951f23dde4aaf458bf4e09588e030e) - **docs:** add missing period _(by Athan Reines)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Harsh
 
 </section>
 
